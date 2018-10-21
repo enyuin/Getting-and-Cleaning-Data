@@ -9,6 +9,7 @@
 7.	Function ‘gsub’ is then used to replace ‘-‘ with ‘_’ and omit ‘()’ in column 2 of “features_need”. This step is to set descriptive label on the column names of the merged_data.
 8.	Since activity_labels got 6 factor, name it with descriptive activity names by using function 'factor'.
 9.	To take the average of each variable in “merged_data” for each activity and each subject, ‘aggregate’ function is used with FUN = mean and get a new tidy data set ‘newdata’. Rename the first two columns of ‘newdata’ to ‘subject’ and ‘activity’.  
+10. Output a 'newdata.txt' using 'write.table' function.
 
 ## Descriptions of new variables
 
