@@ -54,7 +54,7 @@ merged_data$activity <- factor(merged_data$activity, levels = activity_labels[,1
 #creates a tidy data set with the average of each variable for each activity and each subject
 newdata <-aggregate(merged_data[, 3:ncol(merged_data)], by=list(merged_data$subject,merged_data$activity), FUN=mean, na.rm=TRUE)
 colnames(newdata) [1:2]<- c("subject", "activity") 
-
+write.table(newdata, file="newdata.txt", row.names = FALSE)
 
 
 
