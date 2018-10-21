@@ -39,7 +39,7 @@ final_train <- cbind(subject_train, data_y_train, data_x_train_req)
 
 ##Merge train and test data
 
-merged_data <- rbind(train,test)
+merged_data <- rbind(final_train,final_test)
 
 ##Rename the label names with descriptive variable names by replacing "-" to "_"
 ## and also omitting "()"
