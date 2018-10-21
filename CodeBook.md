@@ -12,23 +12,32 @@
 
 ## Descriptions of new variables
 
-activity_labels: list of class labels with its activity name
-features: list of features
-features_need: feactures containing mean and standard deviation
+activity_labels: list of class labels with its activity name.
 
-data_x_train: training set data
-data_y_train: training labels data
-subject_train: row identifier of the subject who performed the activity for train set data
-data_x_test：test set data
-data_y_test: test labels data
-subject_test: row identifier of the subject who performed the activity for test set data
+features: list of features.
 
-data_x_train_req: training set data with data containing of only mean and standard deviation
-data_x_test_req: test set data with data containing of only mean and standard deviation
+features_need: feactures containing mean and standard deviation.
 
+data_x_train: training set data.
 
-final_train: complete train set data with subject and activity
-final_test: complete test set data with subject and activity
-merged_data: merged train and test data
+data_y_train: training labels data.
 
-newedata: tidy data set with the average of each variable for each activity and each subject
+subject_train: row identifier of the subject who performed the activity for train set data.
+
+data_x_test：test set data.
+
+data_y_test: test labels data.
+
+subject_test: row identifier of the subject who performed the activity for test set data.
+
+data_x_train_req: training set data with data containing of only mean and standard deviation.
+
+data_x_test_req: test set data with data containing of only mean and standard deviation.
+
+final_train: complete train set data with subject and activity.
+
+final_test: complete test set data with subject and activity.
+
+merged_data: merged train and test data.
+
+newedata: tidy data set with the average of each variable for each activity and each subject.
